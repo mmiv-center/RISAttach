@@ -46,7 +46,7 @@
     
     <div class="container-fluid">
       <div class="row-fluid" style="margin-top: 10px;">
-	<form>
+	<form action="php/upload.php" method="post" enctype="multipart/form-data">
 	  <div class="form-group">
 	    <label for="project">Project</label>
 	    <select class="form-control" id="project">
